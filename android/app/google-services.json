@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "531026647497",
+    "project_id": "instagram-dev-e4021",
+    "storage_bucket": "instagram-dev-e4021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531026647497:android:881f94504a5f0bd35eb018",
+        "android_client_info": {
+          "package_name": "com.elearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531026647497-ikavts2gs815dsoloaleter87gumgdes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1EUakGMSypNsKt_FSoW_2Xt9f7YBHfSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531026647497-ikavts2gs815dsoloaleter87gumgdes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531026647497:android:021195ae784ee8525eb018",
+        "android_client_info": {
+          "package_name": "com.rnnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531026647497-ikavts2gs815dsoloaleter87gumgdes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1EUakGMSypNsKt_FSoW_2Xt9f7YBHfSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531026647497-ikavts2gs815dsoloaleter87gumgdes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
