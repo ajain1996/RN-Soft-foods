@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, ScrollView, Image, StyleSheet, TouchableOpacity, Alert } from 'react-native'
+import { View, Text, ScrollView, Image, StyleSheet, TouchableOpacity, Alert, StatusBar } from 'react-native'
 import CustomButton from '../../components/CustomButton';
 import CustomInput from '../../components/CustomInput'
 import CustomTextComponent from '../../components/CustomTextComponent';
@@ -24,6 +24,7 @@ export default function ForgotPasswordScreen({ navigation }) {
 
     return (
         <ScrollView contentContainerStyle={styles.container}>
+            <StatusBar backgroundColor="#fff" />
             <View>
                 <View style={styles.header_block}>
                     <Image
