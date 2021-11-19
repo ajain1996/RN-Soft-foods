@@ -71,10 +71,10 @@ export default function OnBoarding2({ navigation }) {
                     },
                 ]}
                 onSkip={() => {
-                    navigation.navigate("LoginScreen");
+                    navigation.navigate("IntroScreen");
                 }}
                 onDone={() => {
-                    navigation.navigate("LoginScreen");
+                    navigation.navigate("IntroScreen");
                 }}
                 showDone={true}
                 titleStyles={{

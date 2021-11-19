@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
-import { View, Text, SafeAreaView, ScrollView, StatusBar } from "react-native";
+import React, { useEffect, useState } from "react";
+import { View, ScrollView, StatusBar } from "react-native";
 import Animated from "react-native-reanimated";
 import Header from "../components/Header";
-import { DrawerActions } from '@react-navigation/routers';
 import Categories from "../components/home/Categories";
 import HeaderTabs from "../components/home/HeaderTabs";
 import RestaurantItems, {

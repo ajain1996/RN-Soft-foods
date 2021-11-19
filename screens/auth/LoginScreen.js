@@ -24,7 +24,7 @@ export default function LoginScreen({ navigation }) {
         } else if (password.length < 6) {
             setPasswordError("Password must be 6 characters long")
         } else {
-            navigation.navigate("Tabs");
+            navigation.navigate("Home");
         }
     }
 

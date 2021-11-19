@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Home from "../../screens/Home";
 import FontAwesome5Icon from "react-native-vector-icons/FontAwesome5";
 import { COLORS } from "../../constants";
+import SearchScreen from "../../screens/searchTab/SearchScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -47,8 +48,8 @@ const Tabs = () => {
                 }}
             />
             <Tab.Screen
-                name="Explore"
-                component={Home}
+                name="SearchScreen"
+                component={SearchScreen}
                 options={{
                     headerShown: false,
                     tabBarIcon: ({ focused }) => {

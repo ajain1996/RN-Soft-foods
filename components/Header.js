@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/core';
 
 export default function Header({ navigation }) {
     // const navigation = useNavigation();
+    // https://api.edamam.com/search?q=pizza&app_id=89810bc5&app_key=252cf659796933f179514b31c5cbde91
 
     return (
         <View>

@@ -4,6 +4,25 @@ const avatar_2 = require("../assets/images/avatar-2.jpg");
 const avatar_3 = require("../assets/images/avatar-3.jpg");
 const avatar_4 = require("../assets/images/avatar-4.jpg");
 const avatar_5 = require("../assets/images/avatar-5.jpg");
+
+const recipe = require("../assets/images/recipe.png")
+const spagetti = require("../assets/images/spagetti.png")
+const satay = require("../assets/images/satay.png")
+const laksa = require("../assets/images/laksa.png")
+const nasiLemak = require("../assets/images/nasi-lemak.jpg")
+
+const profile = require("../assets/images/profile.png")
+const UserProfile1 = require("../assets/images/profile-pic-1.png")
+const UserProfile2 = require("../assets/images/profile-pic-2.png")
+const UserProfile3 = require("../assets/images/profile-pic-3.png")
+const UserProfile4 = require("../assets/images/profile-pic-4.png")
+const UserProfile5 = require("../assets/images/profile-pic-5.png")
+const UserProfile6 = require("../assets/images/profile-pic-6.png")
+const UserProfile7 = require("../assets/images/profile-pic-7.png")
+const UserProfile8 = require("../assets/images/profile-pic-8.png")
+const UserProfile9 = require("../assets/images/profile-pic-9.png")
+const UserProfile10 = require("../assets/images/profile-pic-10.png")
+
 const baked_fries = require("../assets/images/baked-fries.jpg");
 const burger_restaurant_1 = require("../assets/images/burger-restaurant.jpg");
 const burger_restaurant_2 = require("../assets/images/burger-restaurant-2.jpg");
@@ -30,6 +49,12 @@ const teh_c_peng = require("../assets/images/teh-c-peng.jpg");
 const tomato_pasta = require("../assets/images/tomato-pasta.jpg");
 
 export default {
+    recipe,
+    spagetti,
+    satay,
+    laksa,
+    nasiLemak,
+
     avatar_1,
     avatar_2,
     avatar_3,
@@ -40,6 +65,18 @@ export default {
     burger_restaurant_2,
     chicago_hot_dog,
     crispy_chicken_burger,
+
+    UserProfile1,
+    UserProfile2,
+    UserProfile3,
+    UserProfile4,
+    UserProfile5,
+    UserProfile6,
+    UserProfile7,
+    UserProfile8,
+    UserProfile9,
+    UserProfile10,
+    profile,
 
     fries_restaurant,
     hawaiian_pizza,

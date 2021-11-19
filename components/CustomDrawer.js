@@ -46,15 +46,6 @@ export default function CustomDrawer({ }) {
                     <Drawer.Screen name="Home" component={() => {
                         return <Home navigation={navigation} />
                     }} />
-                    <Drawer.Screen name="RestaurantDetail" component={() => {
-                        return <Home navigation={navigation} />
-                    }} />
-                    <Drawer.Screen name="OrderCompleted" component={() => {
-                        return <Home navigation={navigation} />
-                    }} />
-                    <Drawer.Screen name="Tabs" component={() => {
-                        return <Tabs navigation={navigation} />
-                    }} />
                 </Drawer.Navigator>
             </NavigationContainer> */}
         </View>
